@@ -164,6 +164,22 @@ start_button.grid(row=4, column=0, columnspan=3, pady=10)
 
 root.mainloop()
 
+
+#OBS DEPENDENCIES NEEDED:
+
+#🎶 How to Install Demucs (Required to Run This App)
+#This app uses Demucs to separate audio into stems (vocals, drums, bass, etc). Please install it first:
+
+#🖥️ For macOS and Windows:
+#Make sure you have Python 3.8 or newer installed:
+
+#If not, download it from https://www.python.org
+#Open Terminal (Mac) or Command Prompt (Windows)
+
+#Run the following command to install Demucs:
+
+#pip install demucs
+
 #to compile: python -m PyInstaller --onedir -w main.py
 #use Inno setup compiler program to create the installation wizard program, include the main executable and the main folder inside of "Dist" directory
 #last updated May 2 2025
